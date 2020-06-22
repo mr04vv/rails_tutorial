@@ -1,0 +1,6 @@
+version: '2'
+
+syncs:
+  sample_sync:
+    src: './'
+    sync_excludes: ['node_modules', 'vendor/bundle', 'tmp']
